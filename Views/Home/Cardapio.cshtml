@@ -1,0 +1,115 @@
+@model Projeto_Sushi.Models.ProdutoCategoriaViewModel
+
+@section css {
+    <link rel="stylesheet" href="~/css/cardapio.css" />
+}
+
+@{
+    ViewData["Title"] = "";
+}
+
+<h1 class="text-white text-center mt-4 mb-5 welcomeCardapio">Bem-Vindo ao nosso cardápio</h1>
+
+<form class="d-flex align-items-center" asp-action="Cardapio" method="get">
+    <span>Consulta: </span>
+    <input type="text" name="txtFiltro" placeholder="Digite aqui o que procura" value="@ViewBag.txtFiltro"
+        class="form-control">
+    <button class="btn btn-primary" type="submit"><i class="bi bi-search"></i> Buscar</button>
+    <select name="selOrdenacao" class="form-control mx-2">
+    </select>
+</form>
+
+<div class="text-center">
+    @foreach (var item in Model.ListaCategoria)
+    {
+        <a class="btn btn-warning saibamais m-2" asp-route-txtFiltro="@item.CategoriaNome">@item.CategoriaNome</a>
+    }
+</div>
+
+<div class="row">
+    @foreach (var item in Model.ListaProduto)
+    {
+        <div class="col-12 col-lg-3 ">
+            <div class="card mb-3">
+                <img class="card-img-top imagem-card-cardapio d-block mx-auto"
+                    src="@Html.DisplayFor(modelItem => item.Imagem)" alt="Imagem de capa do card">
+                <div class="card-body text-center">
+                    <h5 class="card-title titulo-card-cardapio">@Html.DisplayFor(modelItem => item.Nome)</h5>
+                    <p class="card-text">@Html.DisplayFor(modelItem => item.Preco)</p>
+                    <p class="card-text">@Html.DisplayFor(modelItem => item.Descricao)</p>
+
+                    <div class="container">
+                        <p class="saibamais" data-bs-toggle="modal" data-bs-target="#_@item.ProdutoId">Adicionar
+                            ao
+                            carrinho</p>
+                    </div>
+
+
+                    <div class="modal fade" id="_@item.ProdutoId">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">@Html.DisplayFor(modelItem => item.Nome)</h5>
+                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img class="mx-auto d-block img-fluid" src="@Html.DisplayFor(modelItem => item.Imagem)"
+                                        alt="Imagem do Produto">
+                                    <p>Nome: @Html.DisplayFor(modelItem => item.Nome)</p>
+                                    <p>Preço: @Html.DisplayFor(modelItem => item.Preco)</p>
+                                    <p>Descrição: @Html.DisplayFor(modelItem => item.Descricao)</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<br> <br> <br>
+
+<div class="d-flex justify-content-center">
+    <ul class="pagination">
+        @{
+            string primeira = "";
+            string ultima = "";
+        }
+        @if (!Model.ListaProduto.HasPreviousPage)
+            primeira = "disabled";
+        @if (!Model.ListaProduto.HasNextPage)
+            ultima = "disabled";
+        <li class="page-item @primeira">
+
+            <a class="page-link" asp-route-pagina="1">&lt;&lt;</a>
+
+        </li>
+        <li class="page-item @primeira">
+            <a class="page-link" asp-route-pagina="@(Model.ListaProduto.PageNumber - 1)">&lt;</a>
+        </li>
+        @for (int i = 1; i <= Model.ListaProduto.PageCount; i++)
+        {
+            <li class="page-item @(i == Model.ListaProduto.PageNumber ? "active" : "")">
+
+                <a class="page-link" asp-route-pagina="@i" asp-route-txtFiltro="@ViewData["txtFiltro"]">@i</a>
+
+            </li>
+        }
+        <li class="page-item @ultima">
+            <a class="page-link" asp-route-pagina="@(Model.ListaProduto.PageNumber + 1)"
+                asp-route-txtFiltro="@ViewData["txtFiltro"]">></a>
+        </li>
+        <li class="page-item @ultima">
+
+            <a class="page-link" asp-route-pagina="@Model.ListaProduto.PageCount"
+                asp-route-txtFiltro="@ViewData["txtFiltro"]">>></a>
+
+        </li>
+    </ul>
+</div>

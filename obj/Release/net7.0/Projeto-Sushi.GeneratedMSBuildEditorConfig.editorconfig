@@ -1,0 +1,149 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Projeto_Sushi
+build_property.RootNamespace = Projeto_Sushi
+build_property.ProjectDir = C:\Users\Aluno\OneDrive - SESISENAISP - Escolas\Curso Dev\2º Semestre\Back-End\Projeto-Sushi\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Aluno\OneDrive - SESISENAISP - Escolas\Curso Dev\2º Semestre\Back-End\Projeto-Sushi
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Curso Dev/2º Semestre/Back-End/Projeto-Sushi/Areas/Admin/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Curso Dev/2º Semestre/Back-End/Projeto-Sushi/Areas/Admin/Views/Banner/CriarBanner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmFubmVyXENyaWFyQmFubmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Curso Dev/2º Semestre/Back-End/Projeto-Sushi/Areas/Admin/Views/Banner/EditarBanner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmFubmVyXEVkaXRhckJhbm5lci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Curso Dev/2º Semestre/Back-End/Projeto-Sushi/Areas/Admin/Views/Banner/ListaBanner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmFubmVyXExpc3RhQmFubmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Curso Dev/2º Semestre/Back-End/Projeto-Sushi/Areas/Admin/Views/Categoria/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmlhXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Curso Dev/2º Semestre/Back-End/Projeto-Sushi/Areas/Admin/Views/Categoria/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmlhXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Curso Dev/2º Semestre/Back-End/Projeto-Sushi/Areas/Admin/Views/Categoria/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmlhXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Curso Dev/2º Semestre/Back-End/Projeto-Sushi/Areas/Admin/Views/Categoria/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmlhXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Curso Dev/2º Semestre/Back-End/Projeto-Sushi/Areas/Admin/Views/Categoria/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmlhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Curso Dev/2º Semestre/Back-End/Projeto-Sushi/Areas/Admin/Views/Produto/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHV0b1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Curso Dev/2º Semestre/Back-End/Projeto-Sushi/Areas/Admin/Views/Produto/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHV0b1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Curso Dev/2º Semestre/Back-End/Projeto-Sushi/Areas/Admin/Views/Produto/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHV0b1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Curso Dev/2º Semestre/Back-End/Projeto-Sushi/Areas/Admin/Views/Produto/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHV0b1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Curso Dev/2º Semestre/Back-End/Projeto-Sushi/Areas/Admin/Views/Produto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHV0b1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Curso Dev/2º Semestre/Back-End/Projeto-Sushi/Areas/Admin/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Curso Dev/2º Semestre/Back-End/Projeto-Sushi/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Curso Dev/2º Semestre/Back-End/Projeto-Sushi/Areas/Admin/Views/Usuario/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXN1YXJpb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Curso Dev/2º Semestre/Back-End/Projeto-Sushi/Areas/Admin/Views/Usuario/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXN1YXJpb1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Curso Dev/2º Semestre/Back-End/Projeto-Sushi/Areas/Admin/Views/Usuario/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXN1YXJpb1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Curso Dev/2º Semestre/Back-End/Projeto-Sushi/Areas/Admin/Views/Usuario/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXN1YXJpb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Curso Dev/2º Semestre/Back-End/Projeto-Sushi/Areas/Admin/Views/Usuario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Curso Dev/2º Semestre/Back-End/Projeto-Sushi/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Curso Dev/2º Semestre/Back-End/Projeto-Sushi/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Curso Dev/2º Semestre/Back-End/Projeto-Sushi/Views/Home/Cardapio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXJkYXBpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Curso Dev/2º Semestre/Back-End/Projeto-Sushi/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Curso Dev/2º Semestre/Back-End/Projeto-Sushi/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Curso Dev/2º Semestre/Back-End/Projeto-Sushi/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Curso Dev/2º Semestre/Back-End/Projeto-Sushi/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Curso Dev/2º Semestre/Back-End/Projeto-Sushi/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Curso Dev/2º Semestre/Back-End/Projeto-Sushi/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Curso Dev/2º Semestre/Back-End/Projeto-Sushi/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Curso Dev/2º Semestre/Back-End/Projeto-Sushi/Areas/Admin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-s4gxjuuhbq
+
+[C:/Users/Aluno/OneDrive - SESISENAISP - Escolas/Curso Dev/2º Semestre/Back-End/Projeto-Sushi/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-7f3sw735iu

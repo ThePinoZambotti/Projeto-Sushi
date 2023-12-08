@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "bin\\Release\\net7.0\\publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/4323314f-68d2-498b-8918-34d19ef01fc5/resourceGroups/ImperioSushi_group/providers/Microsoft.Web/sites/ImperioSushi"
+}

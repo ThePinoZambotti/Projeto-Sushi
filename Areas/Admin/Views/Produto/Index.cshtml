@@ -1,0 +1,125 @@
+@model X.PagedList.PagedList<App.Models.Produto>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Produtos</h1>
+
+<p>
+    <a asp-action="Create">Criar Produto</a>
+</p>
+
+<form class="d-flex align-items-center" asp-action="Index" method="get">
+    <span>Consulta: </span>
+    <input type="text" name="txtFiltro" placeholder="Digite aqui o que procura" value="@ViewBag.txtFiltro"
+        class="form-control">
+    <button class="btn btn-primary" type="submit"><i class="bi bi-search"></i> Buscar</button>
+    <select name="selOrdenacao" class="form-control mx-2">
+        <option value="Nome">Ordenar por nome</option>
+        <option value="Nome_Desc">Ordenar por nome descentente</option>
+    </select>
+    <button class="btn btn-W" type="submit" name="botao" value="Relatorio"> Relatório</button>
+    <button class="btn btn-success ms-2 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Exportar
+    </button>
+    <ul class="dropdown-menu dropdown-menu-dark">
+        <li><button class="dropdown-item" type="submit" name="botao" value="XML"> XML</button></li>
+        <li><button class="dropdown-item" type="submit" name="botao" value="Json"> Json</button></li>
+    </ul>
+</form>
+
+<table class="table">
+
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model[0].Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model[0].Descricao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model[0].Imagem)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model[0].Preco)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model[0].Ativo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model[0].Categorias)
+            </th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descricao)
+                </td>
+                <td>
+                    <img src="@item.Imagem" alt="Imagem do Produto" class="img-thumbnail"
+                        style="width: 400px; height: 200px;" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ativo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Categorias.CategoriaId)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ProdutoId">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.ProdutoId">Informações</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ProdutoId">Deletar</a>
+                </td>
+            </tr>
+        }
+
+
+    </tbody>
+</table>
+
+<div class="d-flex justify-content-center">
+    <ul class="pagination">
+        @{
+            string primeira = "";
+            string ultima = "";
+        }
+        @if (!Model.HasPreviousPage)
+            primeira = "disabled";
+        @if (!Model.HasNextPage)
+            ultima = "disabled";
+        <li class="page-item @primeira">
+
+            <a class="page-link" asp-route-pagina="1">&lt;&lt;</a>
+
+        </li>
+        <li class="page-item @primeira">
+            <a class="page-link" asp-route-pagina="@(Model.PageNumber - 1)">&lt;</a>
+        </li>
+        @for (int i = 1; i <= Model.PageCount; i++)
+        {
+            <li class="page-item @(i == Model.PageNumber ? "active" : "")">
+
+                <a class="page-link" asp-route-pagina="@i" asp-route-txtFiltro="@ViewData["txtFiltro"]">@i</a>
+
+            </li>
+        }
+        <li class="page-item @ultima">
+            <a class="page-link" asp-route-pagina="@(Model.PageNumber + 1)"
+                asp-route-txtFiltro="@ViewData["txtFiltro"]">></a>
+        </li>
+        <li class="page-item @ultima">
+
+            <a class="page-link" asp-route-pagina="@Model.PageCount" asp-route-txtFiltro="@ViewData["txtFiltro"]">>></a>
+
+        </li>
+    </ul>
+</div>
